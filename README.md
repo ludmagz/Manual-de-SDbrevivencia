@@ -11,3 +11,6 @@ Repositório da monitoria de Sistemas Digitais para Engenharia da Computação -
 
 - 📌 **Segunda Unidade**
   - ✅ 
+
+
+### Duvídas? Manda pros monitores no Discord!
