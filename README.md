@@ -3,13 +3,7 @@ Repositório da monitoria de Sistemas Digitais para Engenharia da Computação -
 
 ## Provas armazenadas
 
-- 💻
-- 💻
-- 💻
-- 💻
-- 💻
-- 💻
-
+- 💻 2023.1
 
 ## Resoluções concluídas
 - 📌 **Primeira Unidade**
