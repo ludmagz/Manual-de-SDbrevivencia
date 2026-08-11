@@ -8,6 +8,7 @@ Repositório da monitoria de Sistemas Digitais para Engenharia da Computação -
   - ✅ EE1 2015.1
   - ✅ EE1 2021.2
   - ✅ EE1 2022.1
+  - ✅ EE1 2026.1
 
 - 📌 **Segunda Unidade**
   - ✅ EE2 2025.1
