@@ -11,8 +11,8 @@ Repositório da monitoria de Sistemas Digitais para Engenharia da Computação -
   - ✅ EE1 2026.1
 
 - 📌 **Segunda Unidade**
-  - ✅ EE2 2025.1
   - ✅ EE2 2023.1
-
+  - ✅ EE2 2025.1
+  - ✅ EE2 2026.1
 
 #### Duvídas? Manda pros monitores no Discord!
