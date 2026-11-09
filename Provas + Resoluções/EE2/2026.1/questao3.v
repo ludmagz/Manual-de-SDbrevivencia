@@ -36,7 +36,7 @@ module counter4s(
     always @(posedge clk) begin
         case (state)
             // se RST for pressionado, espera ele ser solto.
-            // se passaram 4 segundos, vai incrementar S.
+            // se passaram 4 segundos, vai incrementar M.
             WAIT_TIMER: begin
                 if (RST)
                     state <= WAIT_RELEASE;
@@ -44,19 +44,19 @@ module counter4s(
                     state <= INCREMENT;
             end
 
-            // espera o RST ser solto (1 -> 0) para ir zerar S.
+			// espera o RST ser solto (1 -> 0) para ir zerar M.
             WAIT_RELEASE: begin
                 if (~RST)
                     state <= RESET;
             end
 
-            // após incrementar S, zera o contador e volta a contar o tempo.
+            // após incrementar M, zera o contador e volta a contar o tempo.
             INCREMENT: begin
                 counter <= 0;
                 state <= WAIT_TIMER;
             end
 
-            // após zerar S, zera o contador e volta a contar o tempo.
+            // após zerar M, zera o contador e volta a contar o tempo.
             RESET: begin
                 counter <= 0;
                 state <= WAIT_TIMER;
