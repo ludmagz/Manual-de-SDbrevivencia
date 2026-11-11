@@ -52,13 +52,11 @@ module counter2s(
 
             // após incrementar S, zera o contador e volta a contar o tempo.
             INCREMENT: begin
-                counter <= 0;
                 state <= WAIT_TIMER;
             end
 
             // após zerar S, zera o contador e volta a contar o tempo.
             RESET: begin
-                counter <= 0;
                 state <= WAIT_TIMER;
             end
         endcase
