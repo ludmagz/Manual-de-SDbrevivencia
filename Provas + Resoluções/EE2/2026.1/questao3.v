@@ -50,15 +50,13 @@ module counter4s(
                     state <= RESET;
             end
 
-            // após incrementar M, zera o contador e volta a contar o tempo.
+            // após incrementar M, volta a contar o tempo.
             INCREMENT: begin
-                counter <= 0;
                 state <= WAIT_TIMER;
             end
 
-            // após zerar M, zera o contador e volta a contar o tempo.
+            // após zerar M, volta a contar o tempo.
             RESET: begin
-                counter <= 0;
                 state <= WAIT_TIMER;
             end
         endcase
